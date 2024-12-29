@@ -15,6 +15,8 @@ use App\Http\Controllers\PatientPrescriptionController;
 use App\Http\Controllers\PatientProfileController;
 use App\Http\Controllers\PatientRecordController;
 use App\Http\Controllers\DoctorProfileController;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth\RegisterController;
 
 Route::get('/', function () {
