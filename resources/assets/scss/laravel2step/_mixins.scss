@@ -12,3 +12,7 @@
     @include vendor(transition, none);
 }
 
+@mixin draggless() {
+    @include vendor(user-drag, none);
+    @include vendor(user-select, none);
+}
