@@ -5,3 +5,6 @@
     -o-#{$property}: $value;
     #{$property}: $value;
 }
+@mixin transitions() {
+    @include vendor(transition, all $transitionSpeed ease-in-out);
+}
