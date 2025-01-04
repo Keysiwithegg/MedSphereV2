@@ -8,3 +8,7 @@
 @mixin transitions() {
     @include vendor(transition, all $transitionSpeed ease-in-out);
 }
+@mixin transitionless() {
+    @include vendor(transition, none);
+}
+
