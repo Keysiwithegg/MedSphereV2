@@ -12,3 +12,10 @@
     80% { -webkit-transform: translate(8px); }
     100% { -webkit-transform: translate(0px); }
 }
+@-moz-keyframes kf_shake {
+    0% { -moz-transform: translate(40px); }
+    20% { -moz-transform: translate(-40px); }
+    40% { -moz-transform: translate(20px); }
+    60% { -moz-transform: translate(-20px); }
+    80% { -moz-transform: translate(8px); }
+    100% { -moz-transform: translate(0px); }
